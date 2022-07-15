@@ -100,6 +100,16 @@ function writeToFile(fileName, data) {
     })
 }
 
+// TODO: Create a function to initialize app
+function init() {
+    
+    inquirer.prompt('Welcome to the team generator!', "Use 'npm run reset' to reset the dist/ folder", managerQuestions).then((res) => {
+            console.log('Generating README...')
+            //writeToFile('./dist/index.html',generateMarkdown(res));
+    })}
+
+// Function call to initialize app
+init();
 
 
 
