@@ -104,7 +104,7 @@ function writeToFile(fileName, data) {
 function init() {
     
     inquirer.prompt('Welcome to the team generator!', "Use 'npm run reset' to reset the dist/ folder", managerQuestions).then((res) => {
-            console.log('Generating README...')
+            console.log('Generating HTML...')
             //writeToFile('./dist/index.html',generateMarkdown(res));
     })}
 
