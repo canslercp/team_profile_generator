@@ -1,5 +1,19 @@
-//Describe
-    //it
-    //Can set office number via constructor argument
-    //getRole() should return "Manager"
-    //Can get office number via getOffice()
+const Manager = require('../lib/Manager')
+
+describe('Intern', () => {
+    it('Can set office number via constructor argument', () => {
+
+      expect();
+});
+
+it('getRole() should return "Manager"', () => {
+
+    expect();
+});
+
+it('Can get office number via getOffice()', () => {
+
+    expect();
+});
+    
+})

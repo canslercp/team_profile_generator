@@ -1,10 +1,44 @@
-//Describe
-    //it:
-    //Can instantiate Employee instance
-    //Can set name via constructor arguments
-    //Can set id via constructor argument
-    //Can set email via constructor argument
-    //Can get name via getName()
-    //Can get id via getId()
-    //Can get email via getEmail()
-    //getRole() should return "Employee"
+const Employee = require('../Employee')
+
+describe('Employee', () => {
+    it('Can instantiate Employee instance', () => {
+
+      expect();
+});
+
+it('Can set name via constructor arguments', () => {
+
+    expect();
+});
+
+it('Can set id via constructor argument', () => {
+
+    expect();
+});
+
+it('Can set email via constructor argument', () => {
+
+    expect();
+});
+
+it('Can get name via getName()', () => {
+
+    expect();
+});
+
+it('Can get id via getId()', () => {
+
+    expect();
+});
+
+it('Can get email via getEmail()', () => {
+
+    expect();
+});
+
+it('getRole() should return "Employee"', () => {
+
+    expect();
+});
+    
+})
