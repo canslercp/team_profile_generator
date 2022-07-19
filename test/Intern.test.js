@@ -1,19 +1,19 @@
-const Intern = require('../lib/Intern')
+// const Intern = require('./Intern')
 
-describe('Intern', () => {
-    it('Can set school via constructor', () => {
+// describe('Intern', () => {
+//     it('Can set school via constructor', () => {
 
-      expect();
-});
+//       expect();
+// });
 
-it('getRole() should return "Intern"', () => {
+// it('getRole() should return "Intern"', () => {
 
-    expect();
-});
+//     expect();
+// });
 
-it('Can get school via getSchool()', () => {
+// it('Can get school via getSchool()', () => {
 
-    expect();
-});
+//     expect();
+// });
      
-})
+// })

@@ -1,14 +1,18 @@
-const Employee = require('../Employee')
+const Employee = require('../lib/Employee')
 
 describe('Employee', () => {
     it('Can instantiate Employee instance', () => {
+      const employee = {"email": "canslercp@gmail.com", "id": "4", "name": "Corbin"};
+      
+      const manager = new Employee('Corbin', '4', 'canslercp@gmail.com');
 
-      expect();
+      expect(manager).toEqual(employee);
 });
 
 it('Can set name via constructor arguments', () => {
+    const manager = new Employee('Corbin', '4', 'canslercp@gmail.com');
 
-    expect();
+    expect(manager.name).toEqual('Corbin');
 });
 
 it('Can set id via constructor argument', () => {

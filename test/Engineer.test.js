@@ -1,19 +1,19 @@
-const Engineer = require('../lib/Engineer')
+// const Engineer = require('./Engineer')
 
-describe('Engineer', () => {
-    it('Can set GitHub account via constructor', () => {
+// describe('Engineer', () => {
+//     it('Can set GitHub account via constructor', () => {
 
-      expect();
-});
+//       expect();
+// });
 
-it('getRole() should return "Engineer"', () => {
+// it('getRole() should return "Engineer"', () => {
 
-    expect();
-});
+//     expect();
+// });
 
-it('Can get GitHub username via getGithub()', () => {
+// it('Can get GitHub username via getGithub()', () => {
 
-    expect();
-});
+//     expect();
+// });
      
-})
+// })
