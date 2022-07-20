@@ -1,19 +1,17 @@
-// const Intern = require('./Intern')
+const Intern = require('../lib/Intern')
+const intern = new Intern('UNC Charlotte')
 
-// describe('Intern', () => {
-//     it('Can set school via constructor', () => {
+describe('Intern', () => {
+    it('Can set school via constructor', () => {
+      expect(intern.school).toEqual('UNC Charlotte');
+});
 
-//       expect();
-// });
+it('getRole() should return "Intern"', () => {
+    expect(intern.getRole()).toEqual('Intern');
+});
 
-// it('getRole() should return "Intern"', () => {
-
-//     expect();
-// });
-
-// it('Can get school via getSchool()', () => {
-
-//     expect();
-// });
+it('Can get school via getSchool()', () => {
+    expect(intern.getSchool()).toEqual('UNC Charlotte');
+});
      
-// })
+})

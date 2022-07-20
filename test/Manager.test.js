@@ -1,19 +1,17 @@
-// const Manager = require('./Manager')
+const Manager = require('../lib/Manager')
+const manager = new Manager('4444')
 
-// describe('Intern', () => {
-//     it('Can set office number via constructor argument', () => {
+describe('Manager', () => {
+    it('Can set office number via constructor argument', () => {
+      expect(manager.officeNumber).toEqual('4444');
+});
 
-//       expect();
-// });
+it('getRole() should return "Manager"', () => {
+    expect(manager.getRole()).toEqual('Manager');
+});
 
-// it('getRole() should return "Manager"', () => {
-
-//     expect();
-// });
-
-// it('Can get office number via getOffice()', () => {
-
-//     expect();
-// });
+it('Can get office number via getOffice()', () => {
+    expect(manager.getOffice()).toEqual('4444');
+});
     
-// })
+})

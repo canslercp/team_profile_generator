@@ -1,19 +1,17 @@
-// const Engineer = require('./Engineer')
+const Engineer = require('../lib/Engineer')
+const engineer = new Engineer('canslercp');
 
-// describe('Engineer', () => {
-//     it('Can set GitHub account via constructor', () => {
+describe('Engineer', () => {
+    it('Can set GitHub account via constructor', () => {
+        expect(engineer.gitHub).toEqual('canslercp');
+});
 
-//       expect();
-// });
+it('getRole() should return "Engineer"', () => {
+    expect(engineer.getRole()).toEqual("Engineer");
+});
 
-// it('getRole() should return "Engineer"', () => {
-
-//     expect();
-// });
-
-// it('Can get GitHub username via getGithub()', () => {
-
-//     expect();
-// });
+it('Can get GitHub username via getGithub()', () => {
+    expect(engineer.getGithub()).toEqual('canslercp');
+});
      
-// })
+})
